@@ -1,3 +1,10 @@
+h1{
+    text-align: center;
+    color: lavender;
+    background-color: black;
+    margin: 0%;
+    padding: 0%;
+}
 h2{
     color:aliceblue;
 }
@@ -7,8 +14,18 @@ img{
 }
 .main-div-Events{
  text-shadow: none;
+ text-align: center;
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-template-rows: 200px ;
+    gap:25px;
 }
 body{
-    background-image: url(https://wallpapers.com/images/high/brawl-stars-brawl-ball-xulk7ybhcmyssmzv.webp);
+    background-image: url(./img/fondom.jpg);
     background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0%;
+    padding: 0%;
 }
